@@ -21,15 +21,15 @@ class Question():
         self.image = image
         self.audio = audio
 
-app = QApplication([])
+app = QApplication([]) 
 
 main_win = QWidget()
-main_win.setWindowTitle('MemoryCard')
+main_win.setWindowTitle('MemoryCard') 
 main_win.resize(540, 580)
 
 lb_question = QLabel('Самый сложный вопрос в мире')
 
-RadioGroupBox = QGroupBox('Варианты ответов')
+RadioGroupBox = QGroupBox('Варианты ответов') 
 
 answer_bnt1 = QRadioButton('1')
 answer_bnt2 = QRadioButton('2')
